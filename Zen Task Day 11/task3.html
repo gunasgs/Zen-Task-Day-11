@@ -1,0 +1,43 @@
+<!-- 3.Design a contact us form with all fields as required. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body>
+    <form method="post">
+        <h3>Contact us</h3>
+
+        <label for="fName">Fullname</label><br>
+        <input type="text" Name="Fullname" id="fName" placeholder="Ex: Will Smith" required><br><br>
+
+        <label for="lname">Lastname</label><br>
+        <input type="text" Name="Lastname" id="lname" placeholder="Ex:Jaden" required><br><br>
+
+        <label for="mail">Email id</label><br>
+        <input type="text" Name="Email id" id="mail" placeholder="abc@guvi.in" required><br><br>
+
+        <label for="number">Contact No</label><br>
+        <input type="text" Name="Contact No" id="number" placeholder="9876543210" required><br><br>
+
+        <label for="country">Country</label><br>
+
+        <select id="country" name="country">
+            <option value="India">Australia</option>
+            <option value="Uk">Canada</option>
+            <option value="usa">USA</option>
+        </select><br><br>
+
+        <label for="subject">Subject</label><br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height: 100px"></textarea><br><br>
+
+        <input type="submit" onclick="formsubmit()" value="Submit"><br>
+
+    </form>
+</body>
+</html>
+
